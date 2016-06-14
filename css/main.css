@@ -1,0 +1,54 @@
+* {
+    /* border: 1px solid red; */
+    line-height: 1.5rem;
+}
+
+h1 {
+  margin: .67em 0;
+  font-size: 2em;
+}
+
+div.container {
+    max-width: 450px;
+    margin: 0 auto;
+}
+
+h1.title {
+    font-style: cursive;
+    color: darkred;
+    text-align: center;
+}
+
+div.form {
+    margin-top: 1rem;
+    padding: 1rem;
+    padding-top: 5rem;
+    background-color: lightgray;
+    text-align: center;
+}
+
+.form-control {
+    display: inline;
+    width: 45%;
+}
+
+div.button {
+    padding: 1rem;
+}
+
+div.logos {
+    text-align: center;
+}
+
+img {
+    margin: 1rem;
+}
+
+.grayscale {
+    filter: gray;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    opacity: 0.2;
+    -webkit-transition: all .6s ease;
+}
+
